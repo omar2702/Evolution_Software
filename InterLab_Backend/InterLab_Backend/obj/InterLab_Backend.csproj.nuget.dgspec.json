@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PCMYM\\source\\repos\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj": {}
+    "D:\\UPC Omar\\CICLO-202002\\EVO\\TP\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PCMYM\\source\\repos\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj": {
+    "D:\\UPC Omar\\CICLO-202002\\EVO\\TP\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PCMYM\\source\\repos\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj",
+        "projectUniqueName": "D:\\UPC Omar\\CICLO-202002\\EVO\\TP\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj",
         "projectName": "InterLab_Backend",
-        "projectPath": "C:\\Users\\PCMYM\\source\\repos\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj",
+        "projectPath": "D:\\UPC Omar\\CICLO-202002\\EVO\\TP\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\InterLab_Backend.csproj",
         "packagesPath": "C:\\Users\\PCMYM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PCMYM\\source\\repos\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\obj\\",
+        "outputPath": "D:\\UPC Omar\\CICLO-202002\\EVO\\TP\\Evolution_Software\\InterLab_Backend\\InterLab_Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PCMYM\\AppData\\Roaming\\NuGet\\NuGet.Config",

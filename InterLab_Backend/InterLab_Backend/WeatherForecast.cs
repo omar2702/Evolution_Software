@@ -1,6 +1,6 @@
 using System;
 
-namespace InterLab_Backend
+namespace InterLab.API
 {
     public class WeatherForecast
     {

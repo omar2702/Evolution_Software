@@ -4,20 +4,20 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:54495",
-      "sslPort": 44321
+      "applicationUrl": "http://localhost:52580",
+      "sslPort": 44367
     }
   },
   "profiles": {
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "weatherforecast",
+      "launchUrl": "api/companies",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "InterLab_Backend": {
+    "InterLab.API": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",
