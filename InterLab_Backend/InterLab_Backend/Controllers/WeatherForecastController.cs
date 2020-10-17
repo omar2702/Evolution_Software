@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace InterLab_Backend.Controllers
+namespace InterLab.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
