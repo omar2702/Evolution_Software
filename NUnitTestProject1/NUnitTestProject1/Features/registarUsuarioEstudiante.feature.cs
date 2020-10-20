@@ -20,22 +20,22 @@ namespace NUnitTestProject1.Features
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.4.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     [NUnit.Framework.TestFixtureAttribute()]
-    [NUnit.Framework.DescriptionAttribute("registrarUsuarioEmpresa")]
-    public partial class RegistrarUsuarioEmpresaFeature
+    [NUnit.Framework.DescriptionAttribute("registarUsuarioEstudiante")]
+    public partial class RegistarUsuarioEstudianteFeature
     {
         
         private TechTalk.SpecFlow.ITestRunner testRunner;
         
         private string[] _featureTags = ((string[])(null));
         
-#line 1 "registrarUsuarioEmpresa.feature"
+#line 1 "registarUsuarioEstudiante.feature"
 #line hidden
         
         [NUnit.Framework.OneTimeSetUpAttribute()]
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "registrarUsuarioEmpresa", "A short summary of the feature", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "registarUsuarioEstudiante", "A short summary of the feature", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -74,16 +74,16 @@ namespace NUnitTestProject1.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Como usuario empresa quiero registrarme para poder publicar ofertas de practicas " +
-            "preprofesionales o pasantias")]
+        [NUnit.Framework.DescriptionAttribute("El usuario estudiante quiere registrarse en Interlab para aplicar a una oferta de" +
+            " trabajo")]
         [NUnit.Framework.CategoryAttribute("tag1")]
-        public virtual void ComoUsuarioEmpresaQuieroRegistrarmeParaPoderPublicarOfertasDePracticasPreprofesionalesOPasantias()
+        public virtual void ElUsuarioEstudianteQuiereRegistrarseEnInterlabParaAplicarAUnaOfertaDeTrabajo()
         {
             string[] tagsOfScenario = new string[] {
                     "tag1"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Como usuario empresa quiero registrarme para poder publicar ofertas de practicas " +
-                    "preprofesionales o pasantias", null, tagsOfScenario, argumentsOfScenario);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("El usuario estudiante quiere registrarse en Interlab para aplicar a una oferta de" +
+                    " trabajo", null, tagsOfScenario, argumentsOfScenario);
 #line 6
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -105,31 +105,23 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 7
- testRunner.Given("como usuario ingreso a la pagina web", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("como usuario ingreso point para registrarme", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
-                TechTalk.SpecFlow.Table table2 = new TechTalk.SpecFlow.Table(new string[] {
-                            "name",
-                            "description",
-                            "sector",
+                TechTalk.SpecFlow.Table table1 = new TechTalk.SpecFlow.Table(new string[] {
+                            "username",
+                            "password",
                             "email",
-                            "phone",
-                            "address",
-                            "country",
-                            "city"});
-                table2.AddRow(new string[] {
-                            "Interlab",
-                            "Empresa dedicada",
-                            "2",
-                            "interlabmailcom",
-                            "665579",
-                            "Monterrico cuadra23",
-                            "Peru",
-                            "Lima"});
+                            "datecreated"});
+                table1.AddRow(new string[] {
+                            "username1",
+                            "password1",
+                            "email1gmailcom",
+                            "2020-08-08T13:23:44"});
 #line 8
- testRunner.When("como usuario me registro con los datos", ((string)(null)), table2, "When ");
+ testRunner.When("como usuario me registro con mis datos", ((string)(null)), table1, "When ");
 #line hidden
 #line 11
- testRunner.Then("se registra mis datos con exito", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("registro mis datos de manera exitosa", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();
